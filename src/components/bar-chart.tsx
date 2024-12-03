@@ -15,20 +15,28 @@ interface BarChartProps {
 }
 
 const CustomBarChart = ({ data, dynamicKey, title }: BarChartProps) => {
+  const maxElement = data.reduce(
+    (max, obj) => (obj.count > max ? obj.count : max),
+    0
+  );
   return (
     <>
       <h2 className="text-center font-semibold text-grey_dark_2 text-lg uppercase">
         {title}
       </h2>
       {data.length > 0 ? (
-        <div className="w-full h-[300px] mb-6">
+        <div className="w-full h-[300px] mb-6 border-b">
           <ResponsiveContainer>
             <BarChart
               data={data}
               layout="vertical"
-              margin={{ top: 20, right: 30, left: 20, bottom: 5 }} // Margin for spacing
+              margin={{ top: 20, right: 30, left: 20, bottom: 5 }} 
             >
-              <XAxis type="number" />
+              <XAxis
+                domain={[0, maxElement + 5]}
+                allowDecimals={false}
+                type="number"
+              />
               <YAxis type="category" dataKey={dynamicKey} />
               <Tooltip />
               <Legend />

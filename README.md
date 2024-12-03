@@ -81,3 +81,9 @@ src/
 ├── types.tsx                 # Type definitions
 └── utils.ts                  # Utility functions
 
+## 🚀 Getting Started
+
+### **Frontend Setup**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Rajesh8531/RBAC-System.git

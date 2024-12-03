@@ -3,6 +3,65 @@ A **Role-Based Access Control (RBAC)** system with features for managing users, 
 
 ---
 
+## User Instructions
+
+Follow these steps to use the RBAC system effectively:
+
+---
+
+### 1. Initial Setup
+1. Open the application in your browser.
+2. Ensure that you allow the application to access your browser's localStorage to save data.
+
+---
+
+### 2. Creating Permissions
+1. Navigate to the **Permission Management** page:
+   - This page allows you to create new permissions for controlling user actions.
+2. Click on the **"Add Permission"** button.
+3. Enter the **Permission Name** (e.g., `create_user`, `delete_role`).
+4. Save the permission.
+5. Repeat for as many permissions as needed.
+
+**Note**: Permissions must be created first as they are required to define roles.
+
+---
+
+### 3. Managing Roles
+1. Navigate to the **Role Management** page:
+   - This page allows you to define roles and assign permissions.
+2. Click on the **"Add Role"** button.
+3. Enter the **Role Name** (e.g., `Admin`, `Editor`).
+4. Select the permissions you want to assign to the role.
+5. Save the role.
+
+**Tip**: You can edit or delete roles as required.
+
+---
+
+### 4. Managing Users
+1. Navigate to the **User Management** page:
+   - This page allows you to create and manage users.
+2. Click on the **"Add User"** button.
+3. Enter the **User Details**:
+   - **Name**: Full name of the user.
+   - **Email**: Email address of the user.
+   - **Role**: Select a role for the user.
+4. Save the user.
+5. Users can be edited or deleted at any time.
+
+---
+
+### 5. Viewing the Dashboard
+1. Navigate to the **Dashboard**:
+   - This page provides a graphical overview of the system.
+2. Check the charts for:
+   - **User vs Status**: Displays the number of active and inactive users.
+   - **User vs Roles**: Shows the distribution of users across roles.
+
+---
+---
+
 ## Features
 
 1. **User Management**:

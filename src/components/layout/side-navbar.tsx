@@ -71,7 +71,7 @@ const SideBar = () => {
         ))}
       </nav>
       <MobileNavBar navItems={navItems} />
-      <div className="flex-1 p-2 sm:p-8 bg-gradient-to-r h-screen from-primary_light to-primary_dark">
+      <div className="flex-1 p-1 sm:p-8 bg-gradient-to-r h-screen from-primary_light to-primary_dark">
         <Outlet />
       </div>
     </div>

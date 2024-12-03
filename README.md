@@ -80,7 +80,7 @@ src/
 ├── main.tsx                  # React DOM rendering entry
 ├── types.tsx                 # Type definitions
 └── utils.ts                  # Utility functions
-
+```
 ## 🚀 Getting Started
 
 ### **Frontend Setup**

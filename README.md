@@ -123,7 +123,7 @@ Follow these steps to use the RBAC system effectively:
 1. Navigate to the **Permission Management** page:
    - This page allows you to create new permissions for controlling user actions.
 2. Click on the **"Add Permission"** button.
-3. Enter the **Permission Name** (e.g., `create_user`, `delete_role`).
+3. Enter the **Permission Name** (e.g., `Create`, `Delete`,`Read`,`Update` are default permissions).
 4. Save the permission.
 5. Repeat for as many permissions as needed.
 

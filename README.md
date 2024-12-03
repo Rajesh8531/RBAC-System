@@ -102,7 +102,7 @@ src/
   ```bash
    npm start
   ```
-5.Open your browser and go to http://localhost:3000.
+5.Open your browser and go to http://localhost:5173
 
 
 ---

@@ -88,6 +88,21 @@ src/
    ```bash
    git clone https://github.com/Rajesh8531/RBAC-System.git
    ```
+   
+2. Navigate to the project directory:
+   ```bash
+   cd rbac
+   ```
+   
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the application:
+  ```bash
+   npm start
+  ```
+5.Open your browser and go to http://localhost:3000.
 
 
 ---

@@ -123,7 +123,7 @@ Follow these steps to use the RBAC system effectively:
 1. Navigate to the **Permission Management** page:
    - This page allows you to create new permissions for controlling user actions.
 2. Click on the **"Add Permission"** button.
-3. Enter the **Permission Name** (e.g., `Create`, `Delete`).
+3. Enter the **Permission Name** (e.g., `create_user`, `delete_role`).
 4. Save the permission.
 5. Repeat for as many permissions as needed.
 
@@ -151,15 +151,53 @@ Follow these steps to use the RBAC system effectively:
    - **Name**: Full name of the user.
    - **Email**: Email address of the user.
    - **Role**: Select a role for the user.
-   - **Status** : status of the user (active or inactive)
 4. Save the user.
 5. Users can be edited or deleted at any time.
 
 ---
 
-### 5. Viewing the Dashboard
+### 5. Filtering Data
+1. Use the **Search or Filter Bar** available on the **Users**, **Roles**, and **Permissions** pages.
+   - Enter a keyword or phrase to quickly find specific records.
+   - Filtering applies to the displayed data only, making it easier to manage large datasets.
+
+---
+
+### 6. Pagination
+1. Navigate through the data using the **Pagination Controls** at the bottom of the table.
+   - Use the **Next** and **Previous** buttons to view more pages.
+   - You can also jump to a specific page using the page numbers.
+2. Pagination ensures smooth navigation, even with large datasets.
+
+---
+
+### 7. Viewing the Dashboard
 1. Navigate to the **Dashboard**:
    - This page provides a graphical overview of the system.
 2. Check the charts for:
    - **User vs Status**: Displays the number of active and inactive users.
    - **User vs Roles**: Shows the distribution of users across roles.
+
+---
+
+### 8. LocalStorage Notes
+- All data (users, roles, and permissions) is stored in your browser's localStorage.
+- Clearing your browser’s cache will delete all data.
+
+---
+
+### 9. Resetting Data
+If you need to reset the application:
+1. Open your browser's developer tools (usually accessible via F12 or right-click > Inspect).
+2. Navigate to the **Application** tab.
+3. Select **LocalStorage** and clear the data for the current site.
+4. Refresh the application.
+
+---
+
+### 10. Best Practices for Usage
+- Always define **Permissions** before creating **Roles**.
+- Assign roles thoughtfully to ensure users have appropriate access levels.
+- Use **Filters** and **Pagination** to efficiently manage large datasets.
+
+---

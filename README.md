@@ -91,7 +91,7 @@ src/
    
 2. Navigate to the project directory:
    ```bash
-   cd rbac
+   cd RBAC-System
    ```
    
 3. Install dependencies:
@@ -100,7 +100,7 @@ src/
    ```
 4. Start the application:
   ```bash
-   npm start
+   npm run dev
   ```
 5.Open your browser and go to http://localhost:5173
 
